@@ -1,0 +1,6 @@
+{
+  "name": "AutoHub - India's Premium Car Marketplace",
+  "description": "Discover, compare, buy, sell, and manage certified luxury and everyday cars across India with verified 140-point inspections and instant fair-market valuation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

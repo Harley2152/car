@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --surface: #111317;
+    --surface-dim: #111317;
+    --surface-bright: #37393e;
+    --surface-container-lowest: #0c0e12;
+    --surface-container-low: #1a1c20;
+    --surface-container: #1e2024;
+    --surface-container-high: #282a2e;
+    --surface-container-highest: #333539;
+    --primary: #ffffff;
+    --primary-container: #d1f032;
+    --on-primary-container: #1a1c1c;
+    --primary-fixed-dim: #b5d401;
+    --secondary: #c6c6c7;
+    --secondary-container: #454747;
+    --on-surface: #e2e2e8;
+    --on-surface-variant: #c6c9ae;
+    --outline: #90937a;
+    --outline-variant: #454934;
+  }
+
+  body {
+    background-color: #111317;
+    color: #e2e2e8;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Custom scrollbars and styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0c0e12;
+}
+::-webkit-scrollbar-thumb {
+  background: #282a2e;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333539;
+}
+
+/* Material symbol utilities */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+/* Electric lime glow utility */
+.glow-lime {
+  box-shadow: 0 0 24px -2px rgba(209, 240, 50, 0.35);
+}
+
+.glow-lime-sm {
+  box-shadow: 0 0 12px 0 rgba(209, 240, 50, 0.3);
+}
+
+.glow-lime-hover:hover {
+  box-shadow: 0 0 32px 0 rgba(209, 240, 50, 0.45);
+}
